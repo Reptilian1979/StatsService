@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b390ba8-41d2-4512-b265-c3e076cf3bdc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/netology/stats/StatsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/netology/stats/StatsServiceTest.java" afterDir="false" />
+    <list default="true" id="4b390ba8-41d2-4512-b265-c3e076cf3bdc" name="Changes" comment="Task is done">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,14 +31,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_directory_selection": "C:/Users/Хатуль/IdeaProjects/StatsService/src/test/java",
-    "last_opened_file_path": "C:/Users/Хатуль/IdeaProjects/SQRNumbers"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_directory_selection&quot;: &quot;C:/Users/Хатуль/IdeaProjects/StatsService/src/test/java&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Хатуль/IdeaProjects/BonusPaymentMvn&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean test" />
+    </option>
+  </component>
   <component name="RunManager" selected="JUnit.StatsServiceTest">
     <configuration name="StatsServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="StatsService" />
@@ -153,6 +159,14 @@
       <option name="presentableId" value="Default" />
       <updated>1657389033790</updated>
     </task>
+    <task id="LOCAL-00001" summary="Task is done">
+      <created>1657418788765</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1657418788765</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -165,5 +179,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Task is done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task is done" />
   </component>
 </project>

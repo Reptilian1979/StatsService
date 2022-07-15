@@ -9,9 +9,8 @@ public class StatsService {
     }
 
     public int averageSalesCalc(int[] sales) {
-        int totalSales = 0;
-        for (int i = 0; i < sales.length; i++)
-            totalSales = totalSales + sales[i];
+        int totalSales = totalSalesCalc(sales);
+        for (int i = 0; i < sales.length; i++) ;
         int averageSales = totalSales / sales.length;
         return averageSales;
     }
@@ -41,10 +40,7 @@ public class StatsService {
     }
 
     public int badMonthsSalesCalc(int[] sales) {
-        int totalSales = 0;
-        for (int i = 0; i < sales.length; i++)
-            totalSales = totalSales + sales[i];
-        int averageSales = totalSales / sales.length;
+        int averageSales = averageSalesCalc(sales);
         int badMonths = 0;
         for (int sale : sales) {
             if (sale < averageSales) {
@@ -55,10 +51,7 @@ public class StatsService {
     }
 
     public int goodMonthsCalc(int[] sales) {
-        int totalSales = 0;
-        for (int i = 0; i < sales.length; i++)
-            totalSales = totalSales + sales[i];
-        int averageSales = totalSales / sales.length;
+        int averageSales = averageSalesCalc(sales);
         int goodMonths = 0;
         for (int sale : sales) {
             if (sale > averageSales) {

@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b390ba8-41d2-4512-b265-c3e076cf3bdc" name="Changes" comment="Task is done">
+    <list default="true" id="4b390ba8-41d2-4512-b265-c3e076cf3bdc" name="Changes" comment="Task redone">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/stats/StatsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/netology/stats/StatsService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +21,12 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -44,6 +51,7 @@
 }</component>
   <component name="RunAnythingCache">
     <option name="myCommands">
+      <command value="mvn clean" />
       <command value="mvn clean test" />
     </option>
   </component>
@@ -74,6 +82,22 @@
       <option name="PACKAGE_NAME" value="ru.netology.stats" />
       <option name="MAIN_CLASS_NAME" value="ru.netology.stats.StatsServiceTest" />
       <option name="METHOD_NAME" value="shouldCalculateBadMonths" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StatsServiceTest.shouldCalculateTotalSales" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="StatsService" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.netology.stats.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.netology.stats" />
+      <option name="MAIN_CLASS_NAME" value="ru.netology.stats.StatsServiceTest" />
+      <option name="METHOD_NAME" value="shouldCalculateTotalSales" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -135,6 +159,7 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="JUnit.StatsServiceTest.shouldCalculateTotalSales" />
       <item itemvalue="JUnit.StatsServiceTest" />
       <item itemvalue="JUnit.StatsServiceTest.shouldCalculateBadMonths" />
       <item itemvalue="JUnit.StatsServiceTest.shouldSearchMaxSalesMonth" />
@@ -144,6 +169,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.StatsServiceTest" />
+        <item itemvalue="JUnit.StatsServiceTest.shouldCalculateTotalSales" />
         <item itemvalue="JUnit.StatsServiceTest.shouldCalculateBadMonths" />
         <item itemvalue="JUnit.StatsServiceTest.shouldSearchMinSalesMonth" />
         <item itemvalue="JUnit.StatsServiceTest.shouldSearchMaxSalesMonth" />
@@ -166,7 +192,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657418788765</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Task is done">
+      <created>1657477147328</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1657477147328</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -182,6 +215,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Task is done" />
-    <option name="LAST_COMMIT_MESSAGE" value="Task is done" />
+    <MESSAGE value="Task redone" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task redone" />
   </component>
 </project>
